@@ -121,7 +121,7 @@ const App = () => {
     return(
       <div id="fraseyboton">
         <div id="contenedorFrase">
-          <h2 id="titulo-hoy">Tu horoscopo para hoy</h2>
+          <h2 id="titulo-hoy">Tu horóscopo para hoy</h2>
           <p id="lafrase">{mensajes[0][resultado]}</p>
         </div>
         <button id="volver" onClick={() => {setSeleccionado(!seleccionado)}}>Preguntar por otro signo</button>
